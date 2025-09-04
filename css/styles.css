@@ -3,6 +3,11 @@ sans-serif;
 font-family: "Raleway",
  sans-serif; */
 
+
+
+
+ /* header */
+
  body {
     font-family: "Roboto",
             sans-serif;
@@ -65,6 +70,13 @@ font-family: "Raleway",
 .contacts-link:focus {
     color: #404bbf;
 }
+
+
+ /* main section 1 */
+.post {
+    background: #2e2f42;
+}
+
 .title {
     font-weight: 700;
         font-size: 56px;
@@ -75,9 +87,7 @@ font-family: "Raleway",
         text-align: center;
         color: #fff;
 }
-.post {
-    background: #2e2f42;
-}       
+      
 .button {
         background: #4d5ae5;
         font-weight: 500;
@@ -110,17 +120,41 @@ font-family: "Raleway",
     letter-spacing: 0.02em;
     color: #434455;
 }
-.team-card {
-background: #fff;
-}
-.description{
-    color: #434455;
-}
 
+
+
+
+/* section 2 */
+
+ .feature-title {
+    font-weight: 500;
+        font-size: 20px;
+    
+        /* line-height: 24px; */
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+ }
+  .feature-text {
+    font-weight: 400;
+        font-size: 16px;
+    
+        /* line-height: 24px; */
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+  }
+
+
+
+
+/* section 3 */
 .team-photo {
     background: #f4f4fd;
 }
-
+.team-card {
+    background: #fff;
+}
 .subtitle {
     font-weight: 700;
         font-size: 36px;
@@ -131,8 +165,7 @@ background: #fff;
         text-align: center;
         color: #2e2f42;
         text-transform: capitalize;
-}
-
+} 
 .feature-title {
     font-weight: 500;
         font-size: 20px;
@@ -155,9 +188,12 @@ background: #fff;
         text-align: center;
         color: #434455;
   }
-  .contacts-section {
+  
 
-  }
+
+
+
+  /* section 4 */
   .portfolio-title{
  font-weight: 700;
     font-size: 36px;
@@ -172,24 +208,14 @@ background: #fff;
   .contacts-item {
 background: #fff;
   }
-  .feature-title {
-font-weight: 500;
-    font-size: 20px;
+  
 
-    /* line-height: 24px; */
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-  }
-  .feature-text {
-font-weight: 400;
-    font-size: 16px;
 
-    /* line-height: 24px; */
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-  }
+
+
+
+  /* footer */
+  
  .page-footer {
     background-color: #2e2f42;
     font-weight: 400;
